@@ -1,6 +1,6 @@
 [![License: CC0-1.0 license](https://img.shields.io/npm/l/badge-maker.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
-**:warning: THIS IS ONLY FOR EDUCATIONAL PURPOSES ONLY. PLEASE DO NOT USE THIS IN ANY MALICIOUS WAY.**
+**:warning: THIS IS FOR EDUCATIONAL PURPOSES ONLY. PLEASE DO NOT USE THIS IN ANY MALICIOUS WAY.**
 
 # Message Spammer
 Very simple Python code that sends messages.
