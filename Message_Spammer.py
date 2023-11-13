@@ -1,5 +1,6 @@
 import random
 import time
+import math
 import pyautogui as pui
 
 messages = [
@@ -14,6 +15,9 @@ def numbers_only(s):
 q = input("Enter amount of messages to send: ")
 x = numbers_only(q)
 
+delay = input("Enter delay in milliseconds: ")
+delay = int(delay) / 1000
+
 print(f"\nSending {x} messages in:")
 for i in range(5, 0, -1):
     print(i)
@@ -23,9 +27,9 @@ for _ in range(x):
     a = random.choice(messages)
     pui.write(f"Hello {a}!")
     pui.press('enter')
+    time.sleep(delay)
 
 if x == 1:
     print("\n1 Message Sent!")
-
 elif x > 1:
     print(f"\n{x} Messages Sent!")
