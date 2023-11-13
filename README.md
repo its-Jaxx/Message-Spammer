@@ -5,9 +5,10 @@
 # Message Spammer
 Very simple Python code that sends messages.
 
-- You may change the words in the 'messages' dictionary at the top.
+- You may change the words in the 'messages' dictionary at the top. You can always add more words.
 - You may change the 'pui.write' message towards the bottom.
-- When you're satisfied with what you want it to write, run the code, enter how many messages you want to send, and let it run.
+- When you're satisfied with what you want it to write, run the code, enter how many messages you want to send, what the delay should be, and let it run.
+- Note that the delay may be longer due to weird delays caused by PyAutoGUI.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
