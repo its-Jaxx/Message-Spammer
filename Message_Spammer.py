@@ -1,6 +1,4 @@
-import random
-import time
-import math
+import time, math, random
 import pyautogui as pui
 
 messages = [
