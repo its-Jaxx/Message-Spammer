@@ -10,6 +10,8 @@ Very simple Python code that sends messages.
 - When you're satisfied with what you want it to write, run the code, enter how many messages you want to send, what the delay should be, and let it run.
 - Note that the delay may be longer due to weird delays caused by PyAutoGUI.
 
+- A tkinter version is also available, as well as an exe file in the releases. These may be easier to use since there's no need to use the console.
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 <br><br><br><br>
